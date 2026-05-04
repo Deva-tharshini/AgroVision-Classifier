@@ -1,53 +1,65 @@
-# 🌱 SmartHarvest AI - Model
+<img width="631" height="464" alt="image" src="https://github.com/user-attachments/assets/c9de5e64-2865-481d-a342-43e43d41342e" /># 🌱 SmartHarvest AI – Food Image Classification
 
-This project uses Deep Learning to classify images into:
-
-- Fruits 🍎
-- Vegetables 🥦
-- Spices 🌶️
-- Legumes 🌱
+SmartHarvest AI is a deep learning project that classifies food images into categories like fruits, vegetables, spices, and legumes using a CNN model.
 
 ---
 
-## 🧠 Model Details
+## 🚀 Features
 
-- Framework: TensorFlow / Keras
-- Image Size: 224x224
-- Classes: Multiple food categories
-- Epochs: 10
-
----
-
-## 📂 Files
-
-- model_training.ipynb → Training code
-- model.h5 → Trained model (not uploaded)
+* Predicts food item and category
+* Displays confidence score
+* Detects unknown images using threshold
 
 ---
 
-## 🚀 How to Use
+## ⚙️ Tech Stack
 
-1. Open notebook in Google Colab
-2. Run all cells
-3. Upload image to test prediction
-
----
-
-## 📊 Output
-
-- Predicted class
-- Confidence score
-- Category (Fruit / Vegetable / etc.)
+* Python, TensorFlow / Keras
+* NumPy, Matplotlib
+* Google Colab
 
 ---
 
-## 📌 Notes
+## 📂 Dataset
 
-- Dataset from Kaggle
-- Model trained using CNN
+```id="m4z4w8"
+dataset/
+├── train/
+├── validation/
+├── test/
+```
+
+---
+
+## 🧠 Model
+
+* CNN architecture
+* Input size: 224 × 224
+* Epochs: 10–15
+
+---
+
+## 📊 Output Example
+
+<img width="631" height="464" alt="image" src="https://github.com/user-attachments/assets/4fd114af-40ed-4031-83df-10125465329e" />
+
+---
+
+## 🚫 Unknown Detection
+
+<img width="717" height="587" alt="image" src="https://github.com/user-attachments/assets/e6e8409f-1097-4f70-b2d2-f0a19d60710e" />
+
+---
+
+## 🚀 Run
+
+1. Open in Google Colab
+2. Upload dataset
+3. Run all cells
+4. Upload image
 
 ---
 
 ## 👩‍💻 Author
 
-DEVATHARSHINI S
+**Devatharshini S**
