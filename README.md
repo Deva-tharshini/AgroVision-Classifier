@@ -1,6 +1,6 @@
 # 🌱 SmartHarvest AI – Food Image Classification
 
-SmartHarvest AI is a deep learning project that classifies food images into categories like fruits, vegetables, spices, and legumes using a CNN model.
+SmartHarvest AI is a deep learning project that classifies food images into categories such as fruits, vegetables, spices, and legumes using a Convolutional Neural Network (CNN) model.
 
 ---
 
@@ -8,7 +8,7 @@ SmartHarvest AI is a deep learning project that classifies food images into cate
 
 * Predicts food item and category
 * Displays confidence score
-* Detects unknown images using threshold
+* Detects unknown images using confidence threshold
 
 ---
 
@@ -22,7 +22,7 @@ SmartHarvest AI is a deep learning project that classifies food images into cate
 
 ## 📂 Dataset
 
-```id="m4z4w8"
+```
 dataset/
 ├── train/
 ├── validation/
@@ -51,12 +51,12 @@ dataset/
 
 ---
 
-## 🚀 Run
+## 🚀 How to Run
 
-1. Open in Google Colab
-2. Upload dataset
+1. Open the notebook in Google Colab
+2. Upload dataset (train, validation, test)
 3. Run all cells
-4. Upload image
+4. Upload an image for prediction
 
 ---
 
