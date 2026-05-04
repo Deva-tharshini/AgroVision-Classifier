@@ -1,5 +1,10 @@
 # 🌱 SmartHarvest AI – Food Image Classification
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-CNN-orange)
+![Deep Learning](https://img.shields.io/badge/Model-CNN-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 SmartHarvest AI is a deep learning project that classifies food images into categories such as fruits, vegetables, spices, and legumes using a Convolutional Neural Network (CNN) model.
 
 ---
