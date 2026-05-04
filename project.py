@@ -123,6 +123,37 @@ history = model.fit(
 )
 
 model.save('/content/drive/MyDrive/fruit_model.keras')
+    
+from google.colab import drive
+drive.mount('/content/drive')
+import os
+import zipfile
+
+base_path = "/content/dataset"
+
+os.makedirs(base_path + "/train", exist_ok=True)
+os.makedirs(base_path + "/validation", exist_ok=True)
+os.makedirs(base_path + "/test", exist_ok=True)
+with zipfile.ZipFile('/content/drive/MyDrive/train.zip', 'r') as zip_ref:
+    zip_ref.extractall(base_path + "/train")
+
+with zipfile.ZipFile('/content/drive/MyDrive/validation.zip', 'r') as zip_ref:
+    zip_ref.extractall(base_path + "/validation")
+
+with zipfile.ZipFile('/content/drive/MyDrive/test.zip', 'r') as zip_ref:
+    zip_ref.extractall(base_path + "/test")
+    import tensorflow as tf
+
+train_ds = tf.keras.preprocessing.image_dataset_from_directory(
+    "/content/dataset/train",
+    image_size=(224, 224),
+    batch_size=32
+)
+
+class_names = train_ds.class_names
+print(class_names)
+from tensorflow.keras.models import load_model
+model = load_model('/content/drive/MyDrive/fruit_model.keras')
 
 from google.colab import files
 import matplotlib.pyplot as plt
