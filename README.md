@@ -1,4 +1,4 @@
-<img width="631" height="464" alt="image" src="https://github.com/user-attachments/assets/c9de5e64-2865-481d-a342-43e43d41342e" /># 🌱 SmartHarvest AI – Food Image Classification
+# 🌱 SmartHarvest AI – Food Image Classification
 
 SmartHarvest AI is a deep learning project that classifies food images into categories like fruits, vegetables, spices, and legumes using a CNN model.
 
